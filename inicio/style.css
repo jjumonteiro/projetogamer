@@ -1,0 +1,22 @@
+#loja{
+    margin: 0px;
+    padding: 0px;
+}
+
+#loja main #page{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+
+#loja main #page #sidebar{
+    background-color: #242020;
+}
+
+#loja main #page #gameslist{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
