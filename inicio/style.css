@@ -1,0 +1,23 @@
+#pag_home{
+    margin: 15px;
+    padding: 15px;
+}
+
+#pag_home #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#pag_home #header img{
+    width: 60px;
+    border-radius: 40px;
+}
+
+#pag_home .lupa{
+    background: none;
+    border: none;
+}
+
