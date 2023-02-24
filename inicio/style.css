@@ -167,6 +167,27 @@
     background-color: red;
 }
 
+#loja .retangulo{
+    background-color: #636363;
+    height: 8%;
+    width: 100px;
+}
+
+#loja footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+}
+
+#loja footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* Biblioteca */
 #biblioteca *{
     margin: 0px;
     padding: 0px;
@@ -288,22 +309,4 @@
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
     background-size: 22.6vw;
-}
-
-#loja .retangulo{
-    background-color: #636363;
-    height: 8%;
-    width: 100px;
-}
-
-#loja footer div{
-    display: flex;
-    background-color: #242020;
-    height: 100px;
-    align-items: center;
-}
-
-#loja footer div img{
-    width: 65px;
-    padding: 0px 20px;
 }
