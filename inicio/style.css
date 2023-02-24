@@ -1,6 +1,35 @@
+
+#pag_home{
+    margin: 15px;
+    padding: 15px;
+}
+
+#pag_home #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pag_home #header img{
+    width: 60px;
+    border-radius: 40px;
+}
+
+#pag_home .lupa{
+    background: none;
+    border: none;
+}
+
+
+/* Loja */
 #loja{
     margin: 0px;
     padding: 0px;
+}
+
+#loja header #header{
+    height: 90px;
+    background-color: blue;
 }
 
 #loja main #page{
@@ -13,11 +42,15 @@
     background-color: #242020;
 }
 
-#loja main #page #gameslist{
-    background-color: black;
+#loja main #page #gameslist #ofertas,
+#loja main #page #gameslist #recomendados,
+#loja main #page #gameslist #explore,
+#loja main #page #gameslist #maisvendidos{
+    height: 60vh;
+    background-color: red;
 }
 
-*{
+#biblioteca *{
     margin: 0px;
     padding: 0px;
 }
@@ -138,4 +171,9 @@
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
     background-size: 22.6vw;
+
+#loja .retangulo{
+    background-color: #636363;
+    height: 8%;
+    width: 100px;
 }
