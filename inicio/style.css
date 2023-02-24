@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: top;
     background-image: url(../imagens/fundo\ o.png);
-    height: 100vh;
+    height: 115vh;
     background-repeat: no-repeat;
     background-size:cover;
     animation-name: banner;
@@ -41,7 +41,7 @@
     padding-right: 50px;
 }
 
-#links a.ativo,
+#links a.inicio,
 #links a:hover{
     border-bottom: 5px solid white;
 }
@@ -55,11 +55,14 @@
 #pag_home #header #links a,
 #loja #header #links a{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     
 }
 
+
+#pag_home #header img{
+    width: 45px;
 
 #pag_home #header img,
 #loja #header img{
