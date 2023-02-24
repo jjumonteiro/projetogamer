@@ -41,7 +41,7 @@
     padding-right: 50px;
 }
 
-#links a.inicio,
+#links .ativo,
 #links a:hover{
     border-bottom: 5px solid white;
 }
@@ -176,14 +176,6 @@
     border-radius: 50%;
 }
 
-#loja main #page #gameslist #ofertas,
-#loja main #page #gameslist #recomendados,
-#loja main #page #gameslist #explore,
-#loja main #page #gameslist #maisvendidos{
-    height: 40vh;
-    background-color: red;
-}
-
 #loja .retangulo{
     background-color: #636363;
     height: 8%;
@@ -241,16 +233,23 @@
     padding: 25px;
 }
 
-#jogos .itens .item {
+#jogos .itens .item,
+#jogos .itensdois .itemdois,
+#jogos .itenstres .itemtres,
+#jogos .itensum .itemum{
     height: 350px;
-    border-radius: 35px;
+    border-radius: 20%;
     background-position: center center;
     cursor: pointer;
     transition: all 1s;
     opacity: 0.5;
 }
 
-#jogos .itens .item:hover {
+#jogos .itens .item:hover,
+#jogos .itensum .itemum:hover,
+#jogos .itensum .itemum:hover,
+#jogos .itensdois .itemdois:hover,
+#jogos .itenstres .itemtres:hover{
     opacity: 1;
     transform: scale(1.1);
 }
@@ -262,20 +261,6 @@
     padding: 25px;
 }
 
-#jogos .itensum .itemum {
-    height: 350px;
-    border-radius: 35px;
-    background-position: center center;
-    cursor: pointer;
-    transition: all 1s;
-    opacity: 0.5;
-}
-
-#jogos .itensum .itemum:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
 
 #jogos .itensdois {
     display: grid;
@@ -284,21 +269,6 @@
     padding: 25px;
 }
 
-#jogos .itensdois .itemdois {
-    height: 350px;
-    border-radius: 35px;
-    background-position: center center;
-    cursor: pointer;
-    transition: all 1s;
-    opacity: 0.5;
-}
-
-#jogos .itensdois .itemdois:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-
 #jogos .itenstres {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -306,24 +276,18 @@
     padding: 25px;
 }
 
-#jogos .itenstres .itemtres {
-    height: 350px;
-    border-radius: 35px;
-    background-position: center center;
-    cursor: pointer;
-    transition: all 1s;
-    opacity: 0.5;
-}
-
-#jogos .itenstres .itemtres:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
 #jogos .itens .item,
 #jogos .itensum .itemum,
 #jogos .itensdois .itemdois,
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
-    background-size: 22.6vw;
+    background-size: 100%
+}
+
+#jogos .itens .item,
+#jogos .itensdois .itemdois,
+#jogos .itenstres .itemtres,
+#jogos .itensum .itemum,
+#loja #jogos .itens .item {
+    height: 240px;
 }
