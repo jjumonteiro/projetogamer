@@ -36,6 +36,7 @@
     padding-right: 50px;
 }
 
+#links a.ativo,
 #links a:hover{
     border-bottom: 5px solid white;
 }
@@ -116,6 +117,7 @@
     100% {
         background-image: url(../imagens/fundoo.png);
     }
+}
 
 
 
@@ -304,6 +306,4 @@
 #loja footer div img{
     width: 65px;
     padding: 0px 20px;
-}
-
 }
