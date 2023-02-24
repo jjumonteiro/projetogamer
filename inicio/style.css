@@ -50,6 +50,128 @@
     background-color: red;
 }
 
+#biblioteca *{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fundo img{
+    width: 98.5vw;
+    height: 102vh;
+}
+
+#jogos{
+    background-color: #242020;
+}
+
+#jogos h4{
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+}
+
+#jogos :hover h4{
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    margin: 10px;
+}
+
+#jogos .itens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itens .item {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itens .item:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#jogos .itensum {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itensum .itemum {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itensum .itemum:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+#jogos .itensdois {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itensdois .itemdois {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itensdois .itemdois:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+#jogos .itenstres {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itenstres .itemtres {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itenstres .itemtres:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#jogos .itens .item,
+#jogos .itensum .itemum,
+#jogos .itensdois .itemdois,
+#jogos .itenstres .itemtres{
+    background-repeat: no-repeat;
+    background-size: 22.6vw;
+
 #loja .retangulo{
     background-color: #636363;
     height: 8%;
