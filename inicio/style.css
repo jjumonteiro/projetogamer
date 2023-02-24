@@ -35,18 +35,31 @@
 #loja main #page{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #loja main #page #sidebar{
     background-color: #242020;
 }
 
+#loja main #page #sidebar p{
+    color: white;
+    text-align: center;
+}
+
+#loja main #page #sidebar .linha{
+    margin: 0px 5%;
+    height: 2px;
+    width: 90%;
+    background-color: #636363;
+    border-radius: 50%;
+}
+
 #loja main #page #gameslist #ofertas,
 #loja main #page #gameslist #recomendados,
 #loja main #page #gameslist #explore,
 #loja main #page #gameslist #maisvendidos{
-    height: 60vh;
+    height: 40vh;
     background-color: red;
 }
 
@@ -54,4 +67,20 @@
     background-color: #636363;
     height: 8%;
     width: 100px;
+}
+
+#loja footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+}
+
+#loja footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+#loja footer div img:hover{
+
 }
