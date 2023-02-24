@@ -284,10 +284,10 @@
     background-size: 100%;
 }
 
-#jogos .itens .item,
-#jogos .itensdois .itemdois,
-#jogos .itenstres .itemtres,
-#jogos .itensum .itemum,
+#loja #jogos .itens .item,
+#loja #jogos .itensdois .itemdois,
+#loja #jogos .itenstres .itemtres,
+#loja #jogos .itensum .itemum,
 #loja #jogos .itens .item {
     height: 240px;
 }
