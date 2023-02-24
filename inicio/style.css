@@ -2,7 +2,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#pag_home{
+#pag_home,
+#loja{
     margin: 0px;
     padding: 0px;
 }
@@ -21,7 +22,8 @@
     transition: all 0.5s;
 }
 
-#pag_home #header .conteudo {
+#pag_home #header .conteudo,
+#loja #header .conteudo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +32,9 @@
     background-color: rgba(128, 128, 128, 0.135);
 }
 
+#loja #header .conteudo{
+    background-color: #242020;
+}
 
 #links a{
     padding: 20px;
@@ -47,7 +52,8 @@
 }
 
 
-#pag_home #header #links a{
+#pag_home #header #links a,
+#loja #header #links a{
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -57,18 +63,25 @@
 
 #pag_home #header img{
     width: 45px;
+
+#pag_home #header img,
+#loja #header img{
+    width: 60px;
     border-radius: 40px;
 }
-#pag_home #header .user{
+#pag_home #header .user,
+#loja #header .user{
     padding-right: 20px;
 }
 
-#pag_home #header .conteudo .logo {
+#pag_home #header .conteudo .logo,
+#loja #header .conteudo .logo{
     width: 140px;
     padding-left: 20px;
 }
 
-#pag_home .lupa{
+#pag_home .lupa,
+#loja .lupa{
     background: none;
     border: none;
     font-size: 20px;
@@ -76,7 +89,8 @@
     text-align: right;
 }
 
-#pag_home #header #barra_pesquisa {
+#pag_home #header #barra_pesquisa,
+#loja #header #barra_pesquisa{
     background-color: white;
     height: 50px;
     width: 250px;
@@ -88,13 +102,15 @@
     padding: 0px 15px;
 }
 
-#pag_home #header #barra_pesquisa input {
+#pag_home #header #barra_pesquisa input,
+#loja #header #barra_pesquisa input{
     background-color: transparent;
     border: none;
     outline: none;
 }
 
-#pag_home #header #barra_pesquisa button img {
+#pag_home #header #barra_pesquisa button img,
+#loja #header #barra_pesquisa button img{
     width: 35px !important;
 }
 
@@ -167,6 +183,27 @@
     background-color: red;
 }
 
+#loja .retangulo{
+    background-color: #636363;
+    height: 8%;
+    width: 100px;
+}
+
+#loja footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+}
+
+#loja footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* Biblioteca */
 #biblioteca *{
     margin: 0px;
     padding: 0px;
@@ -288,22 +325,4 @@
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
     background-size: 22.6vw;
-}
-
-#loja .retangulo{
-    background-color: #636363;
-    height: 8%;
-    width: 100px;
-}
-
-#loja footer div{
-    display: flex;
-    background-color: #242020;
-    height: 100px;
-    align-items: center;
-}
-
-#loja footer div img{
-    width: 65px;
-    padding: 0px 20px;
 }
