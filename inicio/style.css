@@ -1,3 +1,13 @@
+.amigon{
+    background-color: #1E1E1E;
+}
+
+.amigoff{
+    background-color: #1E1E1E;
+}
+
+
+
 #loja{
     margin: 0px;
     padding: 0px;
@@ -22,9 +32,12 @@
     padding: 0px;
 }
 
-#fundo img{
+#fundo {
+    background-image: url(../altino/img/ss_1bd99270dcbd4ff9fe9c94b0d9c8ffc50ebb42c7.1920x1080.jpg);
+    background-size: cover;
+    background-position: center center;
     width: 98.5vw;
-    height: 102vh;
+    height: 104vh;
 }
 
 #jogos{
@@ -43,7 +56,7 @@
     padding: 15px;
     cursor: pointer;
     transition: all 1s;
-    margin: 10px;
+    transform: scale(1);
 }
 
 #jogos .itens {
@@ -138,4 +151,67 @@
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
     background-size: 22.6vw;
+}
+
+
+#amigospg h4{
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+#amigospg{
+    background-color: #242020;
+    padding: 10px;
+    height: 100vh;
+}
+
+#amigospg #amigosonline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    width: 500px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.amigon{
+    background-repeat: no-repeat;
+    background-position:50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.amigonp{
+    background-repeat: no-repeat;
+    position:relative;
+    bottom: 70px;
+    right: 17px;
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+}
+
+.amigoff{
+    background-repeat: no-repeat;
+    background-position:50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#amigospg #amigosoff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 200px;
+    width: 1020px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
 }
