@@ -30,6 +30,7 @@
     background-color: rgba(128, 128, 128, 0.135);
 }
 
+
 #links a{
     padding: 20px;
     padding-right: 50px;
@@ -51,6 +52,7 @@
     text-decoration: none;
     
 }
+
 
 #pag_home #header img{
     width: 60px;
@@ -94,26 +96,6 @@
 #pag_home #header #barra_pesquisa button img {
     width: 35px !important;
 }
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-#loja{
-    margin: 0px;
-    padding: 0px;
-}
-
-#loja main #page{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    height: 100vh;
-}
-
-#loja main #page #sidebar{
-    background-color: #242020;
-}
-
-#loja main #page #gameslist{
-    background-color: black;
-}
 
 @keyframes banner {
     0% {
@@ -134,4 +116,194 @@
     100% {
         background-image: url(../imagens/fundoo.png);
     }
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Loja */
+#loja{
+    margin: 0px;
+    padding: 0px;
+}
+
+#loja header #header{
+    height: 90px;
+    background-color: blue;
+}
+
+#loja main #page{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    min-height: 100vh;
+}
+
+#loja main #page #sidebar{
+    background-color: #242020;
+}
+
+#loja main #page #sidebar p{
+    color: white;
+    text-align: center;
+}
+
+#loja main #page #sidebar .linha{
+    margin: 0px 5%;
+    height: 2px;
+    width: 90%;
+    background-color: #636363;
+    border-radius: 50%;
+}
+
+#loja main #page #gameslist #ofertas,
+#loja main #page #gameslist #recomendados,
+#loja main #page #gameslist #explore,
+#loja main #page #gameslist #maisvendidos{
+    height: 40vh;
+    background-color: red;
+}
+
+#biblioteca *{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fundo img{
+    width: 98.5vw;
+    height: 102vh;
+}
+
+#jogos{
+    background-color: #242020;
+}
+
+#jogos h4{
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+}
+
+#jogos :hover h4{
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    margin: 10px;
+}
+
+#jogos .itens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itens .item {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itens .item:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#jogos .itensum {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itensum .itemum {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itensum .itemum:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+#jogos .itensdois {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itensdois .itemdois {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itensdois .itemdois:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+#jogos .itenstres {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itenstres .itemtres {
+    height: 350px;
+    border-radius: 35px;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#jogos .itenstres .itemtres:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#jogos .itens .item,
+#jogos .itensum .itemum,
+#jogos .itensdois .itemdois,
+#jogos .itenstres .itemtres{
+    background-repeat: no-repeat;
+    background-size: 22.6vw;
+}
+
+#loja .retangulo{
+    background-color: #636363;
+    height: 8%;
+    width: 100px;
+}
+
+#loja footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+}
+
+#loja footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
 }
