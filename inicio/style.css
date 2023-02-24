@@ -10,8 +10,6 @@
     align-items: center;
 }
 
-
-
 #pag_home #header img{
     width: 60px;
     border-radius: 40px;
@@ -23,9 +21,15 @@
 }
 
 
+/* Loja */
 #loja{
     margin: 0px;
     padding: 0px;
+}
+
+#loja header #header{
+    height: 90px;
+    background-color: blue;
 }
 
 #loja main #page{
@@ -38,6 +42,16 @@
     background-color: #242020;
 }
 
-#loja main #page #gameslist{
-    background-color: black;
+#loja main #page #gameslist #ofertas,
+#loja main #page #gameslist #recomendados,
+#loja main #page #gameslist #explore,
+#loja main #page #gameslist #maisvendidos{
+    height: 60vh;
+    background-color: red;
+}
+
+#loja .retangulo{
+    background-color: #636363;
+    height: 8%;
+    width: 100px;
 }
