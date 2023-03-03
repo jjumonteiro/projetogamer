@@ -382,7 +382,7 @@
 #loja #jogos .itenstres .itemtres,
 #loja #jogos .itensum .itemum,
 #loja #jogos .itens .item {
-    height: 240px !important;
+    height: 200px !important;
 }
 
 
@@ -450,13 +450,6 @@
     margin: 24.5px;
 }
 
-#jogos .itens {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 25px;
-}
-
 #jogos .itens .item,
 #jogos .itensdois .itemdois,
 #jogos .itenstres .itemtres,
@@ -492,23 +485,12 @@
     background-position: 50% 65%;
 }
 
-#jogos .itensum {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 25px;
-}
-
-#jogos .itensdois {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 25px;
-}
-
-#jogos .itenstres {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+#jogos .itens,
+#jogos .itensum,
+#jogos .itensdois,
+#jogos .itenstres{
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 25px;
 }
@@ -519,6 +501,8 @@
 #jogos .itenstres .itemtres{
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 250px;
+    height: 250px;
 }
 
 #loja #jogos .itens .item,
@@ -526,8 +510,8 @@
 #loja #jogos .itenstres .itemtres,
 #loja #jogos .itensum .itemum,
 #loja #jogos .itens .item {
-    height: 240px;
-    width: 240px;
+    height: 200px;
+    width: 200px;
 }
 
 
