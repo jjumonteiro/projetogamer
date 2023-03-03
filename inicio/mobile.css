@@ -5,6 +5,51 @@
     }
 }
 
+@media(max-width: 950px){
+    #pag_home #header .conteudo {
+        display: block;
+    }
+
+    #pag_home #header .conteudo figure {
+        text-align: center;
+    }
+
+    #pag_home #header .conteudo #links {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #pag_home #header{
+        animation-name: none;
+        background-image: url(../imagens/banner2.jpg);
+    }
+}
+
+
+@media(max-width: 950px){
+    #lancqd img{
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    #lancamento div{
+        display: block;
+    }
+
+    #fundu img{
+        width: 300px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+    }
+
+    .remove-cel{
+        display: none;
+    }
+
+
+}
+
 
 
 
