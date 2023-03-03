@@ -223,7 +223,7 @@
     padding: 15px;
     cursor: pointer;
     transition: all 1s;
-    margin: 10px;
+    margin: 24.5px;
 }
 
 #jogos .itens {
@@ -239,10 +239,23 @@
 #jogos .itensum .itemum{
     height: 350px;
     border-radius: 20%;
-    background-position: center center;
+    background-position: 50% 10%;
     cursor: pointer;
     transition: all 1s;
     opacity: 0.5;
+}
+
+#jogos #tfdois{
+    background-position: 50% 35%;
+}
+
+#jogos #granny,
+#jogos #totalwar{
+    background-position: 50% 45%;
+}
+
+#jogos #vrising{
+    background-position: 50% 65%;
 }
 
 #jogos .itens .item:hover,
@@ -290,4 +303,5 @@
 #loja #jogos .itensum .itemum,
 #loja #jogos .itens .item {
     height: 240px;
+    width: 240px;
 }
