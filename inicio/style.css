@@ -3,7 +3,9 @@
 }
 
 #pag_home,
-#loja{
+#loja,
+#biblioteca,
+#amigos{
     margin: 0px;
     padding: 0px;
 }
@@ -22,7 +24,9 @@
 }
 
 #pag_home #header .conteudo,
-#loja #header .conteudo{
+#loja #header .conteudo,
+#biblioteca #header .conteudo,
+#amigos #header .conteudo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +35,9 @@
     background-color: rgba(128, 128, 128, 0.135);
 }
 
-#loja #header .conteudo{
+#loja #header .conteudo,
+#biblioteca #header .conteudo,
+#amigos #header .conteudo{
     background-color: #242020;
 }
 
@@ -52,11 +58,12 @@
 
 
 #pag_home #header #links a,
-#loja #header #links a{
+#loja #header #links a,
+#biblioteca #header #links a,
+#amigos #header #links a{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    
 }
 
 
@@ -65,23 +72,31 @@
 }
 
 #pag_home #header img,
-#loja #header img{
+#loja #header img,
+#biblioteca #header img,
+#amigos #header img{
     width: 60px;
     border-radius: 40px;
 }
 #pag_home #header .user,
-#loja #header .user{
+#loja #header .user,
+#biblioteca #header .user,
+#amigos #header .user{
     padding-right: 20px;
 }
 
 #pag_home #header .conteudo .logo,
-#loja #header .conteudo .logo{
+#loja #header .conteudo .logo,
+#biblioteca #header .conteudo .logo,
+#amigos #header .conteudo .logo{
     width: 140px;
     padding-left: 20px;
 }
 
 #pag_home .lupa,
-#loja .lupa{
+#loja .lupa,
+#biblioteca .lupa,
+#amigos .lupa{
     background: none;
     border: none;
     font-size: 20px;
@@ -90,7 +105,9 @@
 }
 
 #pag_home #header #barra_pesquisa,
-#loja #header #barra_pesquisa{
+#loja #header #barra_pesquisa,
+#biblioteca #header #barra_pesquisa,
+#amigos #header #barra_pesquisa{
     background-color: white;
     height: 50px;
     width: 250px;
@@ -103,14 +120,18 @@
 }
 
 #pag_home #header #barra_pesquisa input,
-#loja #header #barra_pesquisa input{
+#loja #header #barra_pesquisa input,
+#biblioteca #header #barra_pesquisa input,
+#amigos #header #barra_pesquisa input{
     background-color: transparent;
     border: none;
     outline: none;
 }
 
 #pag_home #header #barra_pesquisa button img,
-#loja #header #barra_pesquisa button img{
+#loja #header #barra_pesquisa button img,
+#biblioteca #header #barra_pesquisa button img,
+#amigos #header #barra_pesquisa button img{
     width: 35px !important;
 }
 
@@ -185,6 +206,61 @@
     margin: 0px 15px;
 }
 
+#pag_home footer div,
+#amigos footer div,
+#biblioteca footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+    border-top: 5px solid rgba(0, 0, 0, 0.457);
+}
+
+#pag_home footer div img,
+#amigos footer div img,
+#biblioteca footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+#pag_home footer div img #logofot,
+#amigos footer div img #logofot,
+#biblioteca footer div img #logofot{
+    padding-left: 500px;
+}
+
+#footer #logfoot img{
+    padding-left: 750px;
+    width: 110px;
+}
+
+#footer #logfoot{
+    border: none;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+}
+
+#lancqd p{
+    color: white;
+    padding-left: 30px;
+}
+
+.data{
+    color: white;
+}
+
+#lanqpr img{
+    width: 800px;
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
 #pag_home footer div{
     display: flex;
     background-color: #242020;
@@ -211,8 +287,7 @@
     border: none;
 }
 
-
-
+/* Loja */
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -305,6 +380,9 @@
     padding: 0px;
 }
 
+#biblioteca #top h4{
+    padding: 20px;
+}
 .amigon{
     background-color: #1E1E1E;
 }
@@ -359,8 +437,18 @@
     opacity: 0.5;
 }
 
+#jogos .itens .item:hover,
+#jogos .itensum .itemum:hover,
+#jogos .itensum .itemum:hover,
+#jogos .itensdois .itemdois:hover,
+#jogos .itenstres .itemtres:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 #jogos #tfdois{
     background-position: 50% 35%;
+
 }
 
 #jogos #granny,
@@ -372,22 +460,12 @@
     background-position: 50% 65%;
 }
 
-#jogos .itens .item:hover,
-#jogos .itensum .itemum:hover,
-#jogos .itensum .itemum:hover,
-#jogos .itensdois .itemdois:hover,
-#jogos .itenstres .itemtres:hover{
-    opacity: 1;
-    transform: scale(1.1);
-}
-
 #jogos .itensum {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 25px;
 }
-
 
 #jogos .itensdois {
     display: grid;
@@ -424,16 +502,22 @@
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
 #amigospg h4{
     color: white;
     font-size: 1.2em;
-    padding: 20px;
+    padding: 10px;
+}
+#amigospg #online h4{
+    padding-left: 25px;
 }
 
 #amigospg{
     background-color: #242020;
     padding: 10px;
-    height: 100vh;
+    height: 45pc;
 }
 
 #amigospg #amigosonline{
