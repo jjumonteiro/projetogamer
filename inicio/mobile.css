@@ -7,16 +7,14 @@
 
 @media(max-width: 950px){
     #loja #header #adoheader,
-    #biblioteca #header #barra_pesquisa{
+    #biblioteca #header #adoheader{
         display: none;
     }
 }
 
 @media(max-width: 870px){
     #loja #header #figuradoheader,
-    #biblioteca #header #barra_pesquisa{
+    #biblioteca #header #figuradoheader{
         display: none;
     }
-
-
 }
