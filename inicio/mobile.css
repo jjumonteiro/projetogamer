@@ -1,0 +1,14 @@
+@media(max-width: 1000px){
+    #pag_home #header .user,
+    #pag_home #header #barra_pesquisa{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
