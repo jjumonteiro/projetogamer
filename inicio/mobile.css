@@ -1,3 +1,10 @@
+@media(max-width: 1200px){
+    #loja #header #barra_pesquisa,
+    #biblioteca #header #barra_pesquisa{
+        display: none;
+    }
+}
+
 @media(max-width: 1000px){
     #pag_home #header .user,
     #pag_home #header #barra_pesquisa{
@@ -6,6 +13,7 @@
 }
 
 @media(max-width: 950px){
+<<<<<<< HEAD
     #pag_home #header .conteudo {
         display: block;
     }
@@ -50,10 +58,17 @@
 
 }
 
+=======
+    #loja #header #adoheader,
+    #biblioteca #header #adoheader{
+        display: none;
+    }
+}
+>>>>>>> main
 
-
-
-
-
-
-
+@media(max-width: 870px){
+    #loja #header #figuradoheader,
+    #biblioteca #header #figuradoheader{
+        display: none;
+    }
+}
