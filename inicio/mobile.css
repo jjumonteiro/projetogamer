@@ -1,0 +1,22 @@
+@media(max-width: 1200px){
+    #loja #header #barra_pesquisa,
+    #biblioteca #header #barra_pesquisa{
+        display: none;
+    }
+}
+
+@media(max-width: 950px){
+    #loja #header #adoheader,
+    #biblioteca #header #barra_pesquisa{
+        display: none;
+    }
+}
+
+@media(max-width: 870px){
+    #loja #header #figuradoheader,
+    #biblioteca #header #barra_pesquisa{
+        display: none;
+    }
+
+
+}
