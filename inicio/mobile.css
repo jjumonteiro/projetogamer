@@ -5,6 +5,13 @@
     }
 }
 
+@media(max-width: 1000px){
+    #pag_home #header .user,
+    #pag_home #header #barra_pesquisa{
+        display: none;
+    }
+}
+
 @media(max-width: 950px){
     #loja #header #adoheader,
     #biblioteca #header #barra_pesquisa{
