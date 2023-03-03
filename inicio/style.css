@@ -147,10 +147,20 @@
     gap: 10px;
 }
 
+#lancqd .lc1:hover img{
+    opacity: 0.5;
+}
+
+#lancqd .lc1:hover p{
+    text-decoration: underline white;
+}
+
 #lancqd img {
     max-width: 97%;
     border-radius:30px 0px 30px 0px;
     margin-left: 25px;
+    transition: all 0.5s;
+    opacity: 1;
 }
 
 #lancqd p{
@@ -162,10 +172,18 @@
     color: white;
 }
 
+
+
 #lanqpr img{
     width: 800px;
     border-radius: 15px;
     margin: 0px 15px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#lanqpr img:hover{
+    opacity: 0.5;
 }
 
 #pag_home footer div{
