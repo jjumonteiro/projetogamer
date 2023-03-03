@@ -4,7 +4,7 @@
 
 #pag_home,
 #loja,
-#perfil1{
+#perfil1,
 #biblioteca,
 #amigos{
     margin: 0px;
@@ -26,7 +26,7 @@
 
 #pag_home #header .conteudo,
 #loja #header .conteudo,
-#perfil1 #header .conteudo{
+#perfil1 #header .conteudo,
 #biblioteca #header .conteudo,
 #amigos #header .conteudo{
     display: flex;
@@ -273,8 +273,6 @@
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-}
 
 #lancqd p{
     color: white;
