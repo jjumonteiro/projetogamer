@@ -5,6 +5,8 @@
 #pag_home,
 #loja,
 #perfil1{
+#biblioteca,
+#amigos{
     margin: 0px;
     padding: 0px;
 }
@@ -25,6 +27,8 @@
 #pag_home #header .conteudo,
 #loja #header .conteudo,
 #perfil1 #header .conteudo{
+#biblioteca #header .conteudo,
+#amigos #header .conteudo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +38,9 @@
 }
 
 #loja #header .conteudo,
-#perfil1 #header .conteudo{
+#perfil1 #header .conteudo,
+#biblioteca #header .conteudo,
+#amigos #header .conteudo{
     background-color: #242020;
 }
 
@@ -56,11 +62,13 @@
 
 #pag_home #header #links a,
 #loja #header #links a, 
-#perfil1 #header #links a{
+#perfil1 #header #links a,
+#loja #header #links a,
+#biblioteca #header #links a,
+#amigos #header #links a{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    
 }
 
 
@@ -70,26 +78,34 @@
 
 #pag_home #header img,
 #loja #header img,
-#perfil1 #header img{
+#perfil1 #header img,
+#biblioteca #header img,
+#amigos #header img{
     width: 60px;
     border-radius: 40px;
 }
 #pag_home #header .user,
 #loja #header .user,
-#perfil1 #header .user{
+#perfil1 #header .user,
+#biblioteca #header .user,
+#amigos #header .user{
     padding-right: 20px;
 }
 
 #pag_home #header .conteudo .logo,
 #loja #header .conteudo .logo,
-#perfil1 #header .conteudo .logo{
+#perfil1 #header .conteudo .logo,
+#biblioteca #header .conteudo .logo,
+#amigos #header .conteudo .logo{
     width: 140px;
     padding-left: 20px;
 }
 
 #pag_home .lupa,
 #loja .lupa,
-#perfil1 .lupa{
+#perfil1 .lupa,
+#biblioteca .lupa,
+#amigos .lupa{
     background: none;
     border: none;
     font-size: 20px;
@@ -99,7 +115,9 @@
 
 #pag_home #header #barra_pesquisa,
 #loja #header #barra_pesquisa,
-#perfil1 #header #barra_pesquisa{
+#perfil1 #header #barra_pesquisa,
+#biblioteca #header #barra_pesquisa,
+#amigos #header #barra_pesquisa{
     background-color: white;
     height: 50px;
     width: 250px;
@@ -113,7 +131,9 @@
 
 #pag_home #header #barra_pesquisa input,
 #loja #header #barra_pesquisa input,
-#perfil1 #header #barra_pesquisa input{
+#perfil1 #header #barra_pesquisa input,
+#biblioteca #header #barra_pesquisa input,
+#amigos #header #barra_pesquisa input{
     background-color: transparent;
     border: none;
     outline: none;
@@ -121,7 +141,9 @@
 
 #pag_home #header #barra_pesquisa button img,
 #loja #header #barra_pesquisa button img,
-#perfil1 #header #barra_pesquisa button img{
+#perfil1 #header #barra_pesquisa button img,
+#biblioteca #header #barra_pesquisa button img,
+#amigos #header #barra_pesquisa button img{
     width: 35px !important;
 }
 
@@ -175,10 +197,83 @@
     gap: 10px;
 }
 
+#lancqd .lc1:hover img{
+    opacity: 0.5;
+}
+
+#lancqd .lc1:hover p{
+    text-decoration: underline white;
+}
+
 #lancqd img {
     max-width: 97%;
     border-radius:30px 0px 30px 0px;
     margin-left: 25px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#lancqd p{
+    color: white;
+    padding-left: 30px;
+}
+
+.data{
+    color: white;
+}
+
+
+
+#lanqpr img{
+    width: 800px;
+    border-radius: 15px;
+    margin: 0px 15px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#lanqpr img:hover{
+    opacity: 0.5;
+}
+
+#pag_home footer div,
+#amigos footer div,
+#biblioteca footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+    border-top: 5px solid rgba(0, 0, 0, 0.457);
+}
+
+#pag_home footer div img,
+#amigos footer div img,
+#biblioteca footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+#pag_home footer div img #logofot,
+#amigos footer div img #logofot,
+#biblioteca footer div img #logofot{
+    padding-left: 500px;
+}
+
+#footer #logfoot img{
+    padding-left: 750px;
+    width: 110px;
+}
+
+#footer #logfoot{
+    border: none;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 }
 
 #lancqd p{
@@ -226,8 +321,7 @@
     border: none;
 }
 
-
-
+/* Loja */
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -320,6 +414,9 @@
     padding: 0px;
 }
 
+#biblioteca #top h4{
+    padding: 20px;
+}
 .amigon{
     background-color: #1E1E1E;
 }
@@ -352,7 +449,7 @@
     padding: 15px;
     cursor: pointer;
     transition: all 1s;
-    transform: scale(1);
+    margin: 24.5px;
 }
 
 #jogos .itens {
@@ -368,7 +465,7 @@
 #jogos .itensum .itemum{
     height: 350px;
     border-radius: 20%;
-    background-position: center center;
+    background-position: 50% 10%;
     cursor: pointer;
     transition: all 1s;
     opacity: 0.5;
@@ -383,13 +480,26 @@
     transform: scale(1.1);
 }
 
+#jogos #tfdois{
+    background-position: 50% 35%;
+
+}
+
+#jogos #granny,
+#jogos #totalwar{
+    background-position: 50% 45%;
+}
+
+#jogos #vrising{
+    background-position: 50% 65%;
+}
+
 #jogos .itensum {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 25px;
 }
-
 
 #jogos .itensdois {
     display: grid;
@@ -413,6 +523,18 @@
     background-size: 100%;
 }
 
+#loja #jogos .itens .item,
+#loja #jogos .itensdois .itemdois,
+#loja #jogos .itenstres .itemtres,
+#loja #jogos .itensum .itemum,
+#loja #jogos .itens .item {
+    height: 240px;
+    width: 240px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -420,13 +542,16 @@
 #amigospg h4{
     color: white;
     font-size: 1.2em;
-    padding: 20px;
+    padding: 10px;
+}
+#amigospg #online h4{
+    padding-left: 25px;
 }
 
 #amigospg{
     background-color: #242020;
     padding: 10px;
-    height: 100vh;
+    height: 45pc;
 }
 
 #amigospg #amigosonline{
