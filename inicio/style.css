@@ -244,11 +244,64 @@
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+}
+
+#lancqd p{
+    color: white;
+    padding-left: 30px;
+}
+
+.data{
+    color: white;
+}
+
+#lanqpr img{
+    width: 800px;
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
+#pag_home footer div{
+    display: flex;
+    background-color: #242020;
+    height: 100px;
+    align-items: center;
+    border-top: 5px solid rgba(0, 0, 0, 0.457);
+}
+
+#pag_home footer div img{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+#pag_home footer div img #logofot{
+    padding-left: 500px;
+}
+
+#footer #logfoot img{
+    padding-left: 750px;
+    width: 110px;
+}
+
+#footer #logfoot{
+    border: none;
+}
+
+/* Loja */
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* Loja */
 
 #loja{
     margin: 0px;
     padding: 0px;
+}
+
+#loja header #header{
+    height: 90px;
+    background-color: blue;
 }
 
 #loja main #page{
@@ -362,7 +415,7 @@
     padding: 15px;
     cursor: pointer;
     transition: all 1s;
-    transform: scale(1);
+    margin: 24.5px;
 }
 
 #jogos .itens {
@@ -378,7 +431,7 @@
 #jogos .itensum .itemum{
     height: 350px;
     border-radius: 20%;
-    background-position: center center;
+    background-position: 50% 10%;
     cursor: pointer;
     transition: all 1s;
     opacity: 0.5;
@@ -393,13 +446,26 @@
     transform: scale(1.1);
 }
 
+#jogos #tfdois{
+    background-position: 50% 35%;
+
+}
+
+#jogos #granny,
+#jogos #totalwar{
+    background-position: 50% 45%;
+}
+
+#jogos #vrising{
+    background-position: 50% 65%;
+}
+
 #jogos .itensum {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 25px;
 }
-
 
 #jogos .itensdois {
     display: grid;
@@ -422,6 +488,18 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+#loja #jogos .itens .item,
+#loja #jogos .itensdois .itemdois,
+#loja #jogos .itenstres .itemtres,
+#loja #jogos .itensum .itemum,
+#loja #jogos .itens .item {
+    height: 240px;
+    width: 240px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
