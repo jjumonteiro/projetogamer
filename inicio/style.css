@@ -4,6 +4,7 @@
 
 #pag_home,
 #loja,
+#perfil1,
 #biblioteca,
 #amigos{
     margin: 0px;
@@ -25,6 +26,7 @@
 
 #pag_home #header .conteudo,
 #loja #header .conteudo,
+#perfil1 #header .conteudo,
 #biblioteca #header .conteudo,
 #amigos #header .conteudo{
     display: flex;
@@ -36,6 +38,7 @@
 }
 
 #loja #header .conteudo,
+#perfil1 #header .conteudo,
 #biblioteca #header .conteudo,
 #amigos #header .conteudo{
     background-color: #242020;
@@ -58,6 +61,8 @@
 
 
 #pag_home #header #links a,
+#loja #header #links a, 
+#perfil1 #header #links a,
 #loja #header #links a,
 #biblioteca #header #links a,
 #amigos #header #links a{
@@ -73,6 +78,7 @@
 
 #pag_home #header img,
 #loja #header img,
+#perfil1 #header img,
 #biblioteca #header img,
 #amigos #header img{
     width: 60px;
@@ -80,6 +86,7 @@
 }
 #pag_home #header .user,
 #loja #header .user,
+#perfil1 #header .user,
 #biblioteca #header .user,
 #amigos #header .user{
     padding-right: 20px;
@@ -87,6 +94,7 @@
 
 #pag_home #header .conteudo .logo,
 #loja #header .conteudo .logo,
+#perfil1 #header .conteudo .logo,
 #biblioteca #header .conteudo .logo,
 #amigos #header .conteudo .logo{
     width: 140px;
@@ -95,6 +103,7 @@
 
 #pag_home .lupa,
 #loja .lupa,
+#perfil1 .lupa,
 #biblioteca .lupa,
 #amigos .lupa{
     background: none;
@@ -106,6 +115,7 @@
 
 #pag_home #header #barra_pesquisa,
 #loja #header #barra_pesquisa,
+#perfil1 #header #barra_pesquisa,
 #biblioteca #header #barra_pesquisa,
 #amigos #header #barra_pesquisa{
     background-color: white;
@@ -121,6 +131,7 @@
 
 #pag_home #header #barra_pesquisa input,
 #loja #header #barra_pesquisa input,
+#perfil1 #header #barra_pesquisa input,
 #biblioteca #header #barra_pesquisa input,
 #amigos #header #barra_pesquisa input{
     background-color: transparent;
@@ -130,6 +141,7 @@
 
 #pag_home #header #barra_pesquisa button img,
 #loja #header #barra_pesquisa button img,
+#perfil1 #header #barra_pesquisa button img,
 #biblioteca #header #barra_pesquisa button img,
 #amigos #header #barra_pesquisa button img{
     width: 35px !important;
@@ -277,7 +289,8 @@
     margin: 0px 15px;
 }
 
-#pag_home footer div{
+#pag_home footer div,
+ footer div{
     display: flex;
     background-color: #242020;
     height: 100px;
@@ -285,16 +298,19 @@
     border-top: 5px solid rgba(0, 0, 0, 0.457);
 }
 
-#pag_home footer div img{
+#pag_home footer div img,
+#perfil1 footer div img{
     width: 65px;
     padding: 0px 20px;
 }
 
-#pag_home footer div img #logofot{
+#pag_home footer div img #logofot,
+#perfil1 footer div img #logofot{
     padding-left: 500px;
 }
 
-#footer #logfoot img{
+#footer #logfoot img,
+#perfil1 #logofor img{
     padding-left: 750px;
     width: 110px;
 }
@@ -567,4 +583,91 @@
     gap: 20px;
     padding: 20px;
     border-radius: 80px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+#perfilpg{
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+}
+
+#perfil h3{
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+}
+
+
+#perfil1 :hover h4{
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1);
+}
+
+#perfil1 .itens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#perfil1 .itens .item,
+#perfil1 .itensum .itemum{
+    height: 350px;
+    border-radius: 20%;
+    background-position: center center;
+    cursor: pointer;
+    transition: all 1s;
+    opacity: 0.5;
+}
+
+#perfil1 .itens .item:hover,
+#perfil1 .itensum .itemum:hover,
+#perfil1 .itensum .itemum:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#perfil1 .itensum{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+#jogos .itens .item,
+#jogos .itensum .itemum{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#games h3{
+    background-color: #636363;
+}
+
+.forms-bio input{
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: #414141;
+}
+
+#bio h3{
+    font-size: 3em;
+    text-align: start;
+}
+
+.perfilimg{
+    background-repeat: no-repeat;
+    background-position:50% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+    border: 2px solid black;
 }
