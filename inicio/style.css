@@ -444,10 +444,9 @@
 #jogos :hover h4{
     color: white;
     font-size: 1.2em;
-    padding: 15px;
+    padding: 40px;
     cursor: pointer;
     transition: all 1s;
-    margin: 24.5px;
 }
 
 #jogos .itens .item,
